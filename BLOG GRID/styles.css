@@ -1,0 +1,38 @@
+:root{
+    --var-color1: #18242b;
+    --var-color2: #fafafa;
+    --var-color3: #ff80f4;
+    --var-color4:#9e859c;
+}
+
+.header {
+    border: 3px solid var(--var-color3);
+    background-image: linear-gradient(to top, #18242b, #ff80f4);
+    color: var(--var-color2);
+    text-align: center;
+    padding: 1rem;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.grid-item {
+    border: 3px solid var(--var-color3);
+    padding: 1rem;
+    background-color: transparent;
+    color: var(--var-color2);
+}
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
+html{
+    background-image: url(4be003359f1524807bf77fea928801ac.jpg) ;
+}
